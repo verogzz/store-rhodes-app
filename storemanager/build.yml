@@ -1,0 +1,29 @@
+---
+sdkversion: 3.4.0
+name: storemanager
+version: 1.0
+vendor: rhomobile
+build: debug
+bbver: 4.6
+applog: rholog.txt
+iphone:
+  configuration: Release
+  sdk: iphonesimulator5.0
+  provisionprofile: 
+  codesignidentity: 
+  entitlements: 
+  BundleIdentifier: com.rhomobile.storemanager
+  BundleURLScheme: storemanager
+wp:
+  productid: 7e987b80-ba7a-0130-548c-402cf4eb87f2
+symbian:
+  uid: '0xe552035f'
+android:
+  version: 2.1
+  emulator: rhoAndroid
+extensions:
+- json
+- another-extension
+capabilities:
+- vibrate
+sdk: C:/MotorolaRhoMobileSuite2.1.1.7/ruby/lib/ruby/gems/1.9.1/gems/rhodes-3.4.2
